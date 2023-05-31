@@ -14,7 +14,7 @@ PODS:
     - BoringSSL-GRPC (= 0.0.4)
     - gRPC-Core/Interface (= 1.24.2)
   - gRPC-Core/Interface (1.24.2)
-  - secp256k1.swift (0.1.4)
+  - secp256k1.c (0.1.2)
   - SwiftGRPC (0.11.0):
     - gRPC-Core (~> 1.24.1)
     - SwiftProtobuf (~> 1.7.0)
@@ -23,7 +23,7 @@ PODS:
 DEPENDENCIES:
   - BigInt (~> 5.0)
   - CryptoSwift (~> 1.4)
-  - secp256k1.swift (~> 0.1)
+  - secp256k1.c (~> 0.1)
   - SwiftGRPC
 
 SPEC REPOS:
@@ -32,7 +32,7 @@ SPEC REPOS:
     - BoringSSL-GRPC
     - CryptoSwift
     - gRPC-Core
-    - secp256k1.swift
+    - secp256k1.c
     - SwiftGRPC
     - SwiftProtobuf
 
@@ -41,10 +41,10 @@ SPEC CHECKSUMS:
   BoringSSL-GRPC: b8d2e9fca6d3870aec81ee7d583869caec2a6076
   CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   gRPC-Core: 5ca379163f100dfbc55214942ab7d23423513a17
-  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
   SwiftGRPC: daeb5abeec734ee2a09072aed3fca1c2341a4869
   SwiftProtobuf: 4fd9645e69b72cbae6ec8da5be0cdd20ca6565dd
 
-PODFILE CHECKSUM: 2a39e45c692985085911585a3fc2b7654450ed5a
+PODFILE CHECKSUM: 22f2f683a4a0edde81f0b4af2dc75c5d72f3787f
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0

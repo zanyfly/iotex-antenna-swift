@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 abstract_target 'Shows' do
-  pod 'secp256k1.swift', '~> 0.1'
+  pod 'secp256k1.c', '~> 0.1'
   pod 'CryptoSwift', '~> 1.4'
   pod 'SwiftGRPC'
   pod 'BigInt', '~> 5.0'

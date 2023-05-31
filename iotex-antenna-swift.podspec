@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.resource = 'proto/**/*.proto'
 
-  s.dependency 'secp256k1.swift', '~> 0.1'
+  s.dependency 'secp256k1.c', '~> 0.1'
   s.dependency 'CryptoSwift', '~> 1.4'
   s.dependency 'SwiftGRPC'
   s.dependency 'BigInt', '~> 5.0'
